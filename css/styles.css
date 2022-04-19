@@ -264,6 +264,9 @@ button {
 .main .text-content h1 {
   color: rgb(5, 230, 218);
 }
+  .social-icons ion-icon {
+    font-size: 40px;
+  }
 .max {
   max-width: 60%;
   text-align: center;
@@ -683,10 +686,12 @@ button {
 }
 
 .about_me .skills {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 0;
+  z-index: 50;
 }
 
 .services {
@@ -1016,24 +1021,14 @@ button {
     align-items: center;
   }
   
-  .main .image-container .circle-background {
-    position: absolute;
-    width: 20rem;
-    height: 15rem;
-  }
-  
-  .main .image-container .img-box {
-    width: 25rem;
-    height: 25rem;
-  }
 
   /* social icons */
   .social-icons {
     bottom: 10%;
   }
   .main .image-container .img-box {
-    width: 15rem;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
   }
   .main .text-content {
     position: relative;
@@ -1073,8 +1068,8 @@ button {
   }
 
   .main .image-container .circle-background {
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
   }
 
 
@@ -1198,5 +1193,20 @@ button {
     right: 3rem;
     top: 40%;
     z-index: 20;
+    
+  }
+  .social-icons ion-icon {
+    font-size: 40px;
+  }
+  .services .content div {
+    padding: initial 40px ;
+    height: 100%;
+  }
+  .about_me {
+    padding: 2px;
+  }
+  .about_content .vid-box {
+    margin-top: 10px;
+    padding: 5px;
   }
 }
