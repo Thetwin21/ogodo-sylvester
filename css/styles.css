@@ -135,6 +135,7 @@ button {
   display: none;
 }
 
+/* sidemenu styling */
 .sidemenu {
   display: flex;
   flex: 1;
