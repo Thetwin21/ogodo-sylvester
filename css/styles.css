@@ -28,6 +28,9 @@ body::before {
   background: #000;
   width: 100%;
 }
+ body {
+  background: var(--main-background);
+ }
 
 a {
   text-decoration: none;
