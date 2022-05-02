@@ -9,7 +9,7 @@
     rgb(0, 0, 0)
   );
   --lg-padding: 7rem;
-  --sm-padding: 5rem;
+  --sm-padding: 5rem 1rem;
 }
 html {
   scroll-behavior: smooth;
@@ -657,7 +657,7 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: var(--sm-padding);
+  padding:  var(--sm-padding);
   line-height: 1.5rem;
 
 }
@@ -702,7 +702,7 @@ button {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  padding: 2rem 5rem;
+  padding: 2rem 1rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -712,6 +712,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 1.5rem;
 }
 .services .content div {
   display: flex;
@@ -766,6 +767,7 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   align-items: center;
   justify-content: center;
+  margin-top: 1.5rem;
 }
 .projects .content > div {
   display: grid;
@@ -1144,6 +1146,9 @@ button {
   .about_me button {
     width: 8rem;
   }
+  .services {
+    padding: 2rem 5rem;
+  }
   .services .content {
     display: flex;
     flex-wrap: nowrap;
@@ -1192,6 +1197,9 @@ button {
     }
 }
 @media (max-width: 470px) {
+  .container {
+    /* padding: initial 20rem; */
+  }
   .social-icons {
     right: 3rem;
     top: 40%;
@@ -1206,10 +1214,11 @@ button {
     height: 100%;
   }
   .about_me {
-    padding: 2px;
+    padding: 2px 0px;
+    margin: initial 0px;
   }
-  .about_content .vid-box {
+  .about_me .about_content .vid-box {
     margin-top: 10px;
-    padding: 5px;
+    padding: 0px;
   }
 }
