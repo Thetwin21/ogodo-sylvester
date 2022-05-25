@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Overlock+SC&family=Roboto+Flex:opsz@8..144&display=swap');
 
-/* 
-font-family: 'Cairo', sans-serif;
-font-family: 'Khand', sans-serif;
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Orbitron', sans-serif; */
 :root {
   --color-line: linear-gradient(90deg, rgb(255, 138, 4), #000);
   --color-line2: linear-gradient(135deg, rgb(250, 9, 129), #000);
@@ -70,7 +65,7 @@ button {
   height: 100%;
   color: #fff;
   font-size: 20px;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   background: var(--main-background);
   box-sizing: border-box;
   overflow: hidden;
