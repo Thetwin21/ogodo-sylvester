@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Overlock+SC&family=Roboto+Flex:opsz@8..144&display=swap');
 
 /* 
 font-family: 'Cairo', sans-serif;
@@ -70,7 +70,7 @@ button {
   height: 100%;
   color: #fff;
   font-size: 20px;
-  font-family: 'Overlock SC', cursive;
+  font-family: 'Roboto Flex', sans-serif;
   background: var(--main-background);
   box-sizing: border-box;
   overflow: hidden;
